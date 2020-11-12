@@ -5,7 +5,7 @@
     --secondary-color: #1c3fa8;
     --dark-color: #002240;
     --light-color: #f4f4f4;
-    --success-color: #5cb65c;
+    --success-color: #5cb85c;
     --error-color: #d9534f;
 }
 
@@ -98,7 +98,7 @@ code, pre {
 
 .showcase .grid {
     overflow: visible;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 55% auto;
     gap: 30px;
 }
 
@@ -121,7 +121,7 @@ code, pre {
 }
 
 .showcase-form input[type='text'],
-.showcase-form input[type='email']{
+.showcase-form input[type='email'] {
     border: 0;
     border-bottom: 1px solid #b4becb;
     width: 100%;
@@ -139,7 +139,7 @@ code, pre {
     position: absolute;
     height: 100px;
     bottom: -70px;
-    right: 0px;
+    right: 0;
     left: 0;
     background: #fff;
     transform: skewY(-3deg);
@@ -221,7 +221,7 @@ code, pre {
     margin-right: 20px;
 }
 
-.feature-main .grid {
+.features-main .grid {
     padding: 30px;
 }
 
@@ -300,14 +300,14 @@ code, pre {
     }
 }
 
-/* Tablet and under */
+/* Tablets and under */
 @media (max-width: 768px) {
     .grid,
     .showcase .grid,
     .stats .grid,
     .cli .grid,
     .cloud .grid,
-    .feature-main .grid,
+    .features-main .grid,
     .docs-main .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;

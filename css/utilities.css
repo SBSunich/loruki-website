@@ -32,27 +32,27 @@
     transform: scale(0.98);
 }
 
-/* Backgrounds & colored Buttons */
+/* Backgrounds & colored buttons */
 .bg-primary, 
-.btn-primary{
+.btn-primary {
     background-color: var(--primary-color);
     color: #fff;
 }
 
 .bg-secondary, 
-.btn-secondary{
+.btn-secondary {
     background-color: var(--secondary-color);
     color: #fff;
 }
 
 .bg-dark, 
-.btn-dark{
+.btn-dark {
     background-color: var(--dark-color);
     color: #fff;
 }
 
 .bg-light, 
-.btn-light{
+.btn-light {
     background-color: var(--light-color);
     color: #333;
 }
@@ -67,19 +67,19 @@
 }
 
 /* Text colors */
-.text-primary{
+.text-primary {
     color: var(--primary-color);
 }
 
-.text-secondary{
+.text-secondary {
     color: var(--secondary-color);
 }
 
-.text-dark{
+.text-dark {
     color: var(--dark-color);
 }
 
-.text-light{
+.text-light {
     color: var(--light-color);
 }
 
